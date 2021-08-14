@@ -13,16 +13,18 @@
   <div id="container">
     <div id="content">
 
-      <div class="all-images-content">
+      <div id="images">
         <div class="images">
-          <img tabindex="-1" src="images/illustration-woman-online-desktop.svg" alt="">
           <img tabindex="-1" src="images/illustration-box-desktop.svg" alt="">
-          <img tabindex="-1" src="images/illustration-woman-online-mobile.svg" alt="">
+          <div class="woman-online">
+            <img tabindex="-1" src="images/illustration-woman-online-desktop.svg" alt="">
+            <img tabindex="-1" src="images/illustration-woman-online-mobile.svg" alt="">
+          </div>
         </div>
 
         <div id="bg">
-          <object tabindex="-1" data="images/bg-pattern-desktop.svg" class="pattern-desktop"></object>
-          <object tabindex="-1" data="images/bg-pattern-mobile.svg" type=""></object>
+          <object tabindex="-1" data="images/bg-pattern-desktop.svg"></object>
+          <object tabindex="-1" data="images/bg-pattern-mobile.svg"></object>
         </div>
       </div>
 
@@ -34,11 +36,11 @@
               <div class="questions">
                 <h4 class="question">How many team members can I invite?</h4>
               </div>
-
-              <div class="answers">
-                <p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on
-                  team members for the Premium plan.</p>
-              </div>
+            </div>
+            <div class="answers">
+              <p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on
+                team members for the Premium plan.</p>
+            </div>
           </li>
           <li>
             <div class="faq-item">
@@ -46,7 +48,8 @@
                 <h4 class="question">What is the maximum file upload size?</h4>
               </div>
               <div class="answers">
-                <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                <p class="answer active">No more than 2GB. All files in your account must fit your allotted storage
+                  space.</p>
               </div>
             </div>
           </li>
