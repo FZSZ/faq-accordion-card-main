@@ -83,12 +83,16 @@ body {
 }
 #images .images {}
 .images img {}
-.images .woman-online {}
+.images .woman-online * {
+  z-index: 222;
+}
 .woman-online :nth-child(1) {}
 .woman-online :nth-child(2) {
   transform: translate(-55%, -55%);
 }
-#images #bg {}
+#images #bg * {
+  z-index: 111;
+}
 #bg :first-child {}
 #bg :last-child {
   transform: translate(-50%);
