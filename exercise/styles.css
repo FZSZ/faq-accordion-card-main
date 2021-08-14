@@ -34,6 +34,7 @@ body {
   font-size: 12px;
   font-family: 'Kumbh Sans', sans-serif;
   background: var(--Soft-violet);
+  color: var(--Very-dark-desaturated-blue);
 }
 /* align */
 #container,
@@ -106,7 +107,7 @@ body {
 .faq-list .faq-item {}
 .faq-item .questions {}
 .questions .question {
-  font-size: 1.13em;
+  font-size: 1.2em;
   font-weight: 400;
   display: flex;
   flex-direction: row;
@@ -134,10 +135,10 @@ body {
 }
 .faq-list .answers {
   line-height: 1.15rem;
-  border-bottom: 1px solid var(--Dark-grayish-blue);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 .answers .answer {
-  font-size: 1em;
+  font-size: 1.15em;
   color: var(--Dark-grayish-blue);
 }
 .answers .answer.active {
